@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		65557F5C2D74AA5400138284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65557F3D2D74AA5200138284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65557F442D74AA5300138284;
+			remoteInfo = UnlockScreenApp;
+		};
+		65557F662D74AA5400138284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65557F3D2D74AA5200138284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65557F442D74AA5300138284;
+			remoteInfo = UnlockScreenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65557F452D74AA5300138284 /* UnlockScreenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnlockScreenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65557F5B2D74AA5400138284 /* UnlockScreenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlockScreenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65557F652D74AA5400138284 /* UnlockScreenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlockScreenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		65557F6D2D74AA5400138284 /* Exceptions for "UnlockScreenApp" folder in "UnlockScreenApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 65557F442D74AA5300138284 /* UnlockScreenApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		65557F472D74AA5300138284 /* UnlockScreenApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				65557F6D2D74AA5400138284 /* Exceptions for "UnlockScreenApp" folder in "UnlockScreenApp" target */,
+			);
+			path = UnlockScreenApp;
+			sourceTree = "<group>";
+		};
+		65557F5E2D74AA5400138284 /* UnlockScreenAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UnlockScreenAppTests;
+			sourceTree = "<group>";
+		};
+		65557F682D74AA5400138284 /* UnlockScreenAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UnlockScreenAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65557F422D74AA5300138284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65557F582D74AA5400138284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65557F622D74AA5400138284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65557F3C2D74AA5200138284 = {
+			isa = PBXGroup;
+			children = (
+				65557F472D74AA5300138284 /* UnlockScreenApp */,
+				65557F5E2D74AA5400138284 /* UnlockScreenAppTests */,
+				65557F682D74AA5400138284 /* UnlockScreenAppUITests */,
+				65557F462D74AA5300138284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65557F462D74AA5300138284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65557F452D74AA5300138284 /* UnlockScreenApp.app */,
+				65557F5B2D74AA5400138284 /* UnlockScreenAppTests.xctest */,
+				65557F652D74AA5400138284 /* UnlockScreenAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65557F442D74AA5300138284 /* UnlockScreenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65557F6E2D74AA5400138284 /* Build configuration list for PBXNativeTarget "UnlockScreenApp" */;
+			buildPhases = (
+				65557F412D74AA5300138284 /* Sources */,
+				65557F422D74AA5300138284 /* Frameworks */,
+				65557F432D74AA5300138284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				65557F472D74AA5300138284 /* UnlockScreenApp */,
+			);
+			name = UnlockScreenApp;
+			packageProductDependencies = (
+			);
+			productName = UnlockScreenApp;
+			productReference = 65557F452D74AA5300138284 /* UnlockScreenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65557F5A2D74AA5400138284 /* UnlockScreenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65557F732D74AA5400138284 /* Build configuration list for PBXNativeTarget "UnlockScreenAppTests" */;
+			buildPhases = (
+				65557F572D74AA5400138284 /* Sources */,
+				65557F582D74AA5400138284 /* Frameworks */,
+				65557F592D74AA5400138284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65557F5D2D74AA5400138284 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65557F5E2D74AA5400138284 /* UnlockScreenAppTests */,
+			);
+			name = UnlockScreenAppTests;
+			packageProductDependencies = (
+			);
+			productName = UnlockScreenAppTests;
+			productReference = 65557F5B2D74AA5400138284 /* UnlockScreenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65557F642D74AA5400138284 /* UnlockScreenAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65557F762D74AA5400138284 /* Build configuration list for PBXNativeTarget "UnlockScreenAppUITests" */;
+			buildPhases = (
+				65557F612D74AA5400138284 /* Sources */,
+				65557F622D74AA5400138284 /* Frameworks */,
+				65557F632D74AA5400138284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65557F672D74AA5400138284 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65557F682D74AA5400138284 /* UnlockScreenAppUITests */,
+			);
+			name = UnlockScreenAppUITests;
+			packageProductDependencies = (
+			);
+			productName = UnlockScreenAppUITests;
+			productReference = 65557F652D74AA5400138284 /* UnlockScreenAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65557F3D2D74AA5200138284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					65557F442D74AA5300138284 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					65557F5A2D74AA5400138284 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 65557F442D74AA5300138284;
+					};
+					65557F642D74AA5400138284 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 65557F442D74AA5300138284;
+					};
+				};
+			};
+			buildConfigurationList = 65557F402D74AA5200138284 /* Build configuration list for PBXProject "UnlockScreenApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65557F3C2D74AA5200138284;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 65557F462D74AA5300138284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65557F442D74AA5300138284 /* UnlockScreenApp */,
+				65557F5A2D74AA5400138284 /* UnlockScreenAppTests */,
+				65557F642D74AA5400138284 /* UnlockScreenAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65557F432D74AA5300138284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65557F592D74AA5400138284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65557F632D74AA5400138284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65557F412D74AA5300138284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65557F572D74AA5400138284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65557F612D74AA5400138284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65557F5D2D74AA5400138284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65557F442D74AA5300138284 /* UnlockScreenApp */;
+			targetProxy = 65557F5C2D74AA5400138284 /* PBXContainerItemProxy */;
+		};
+		65557F672D74AA5400138284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65557F442D74AA5300138284 /* UnlockScreenApp */;
+			targetProxy = 65557F662D74AA5400138284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65557F6F2D74AA5400138284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T778P473F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnlockScreenApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbest.UnlockScreenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65557F702D74AA5400138284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T778P473F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnlockScreenApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbest.UnlockScreenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65557F712D74AA5400138284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65557F722D74AA5400138284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65557F742D74AA5400138284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T778P473F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbest.UnlockScreenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnlockScreenApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnlockScreenApp";
+			};
+			name = Debug;
+		};
+		65557F752D74AA5400138284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T778P473F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbest.UnlockScreenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnlockScreenApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnlockScreenApp";
+			};
+			name = Release;
+		};
+		65557F772D74AA5400138284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T778P473F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbest.UnlockScreenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnlockScreenApp;
+			};
+			name = Debug;
+		};
+		65557F782D74AA5400138284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T778P473F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appbest.UnlockScreenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnlockScreenApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65557F402D74AA5200138284 /* Build configuration list for PBXProject "UnlockScreenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65557F712D74AA5400138284 /* Debug */,
+				65557F722D74AA5400138284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65557F6E2D74AA5400138284 /* Build configuration list for PBXNativeTarget "UnlockScreenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65557F6F2D74AA5400138284 /* Debug */,
+				65557F702D74AA5400138284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65557F732D74AA5400138284 /* Build configuration list for PBXNativeTarget "UnlockScreenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65557F742D74AA5400138284 /* Debug */,
+				65557F752D74AA5400138284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65557F762D74AA5400138284 /* Build configuration list for PBXNativeTarget "UnlockScreenAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65557F772D74AA5400138284 /* Debug */,
+				65557F782D74AA5400138284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65557F3D2D74AA5200138284 /* Project object */;
+}
